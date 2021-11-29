@@ -3,6 +3,7 @@ The truth matters: A brief discussion on MVUE vs. RSS in MRI reconstruction
 
 # Quantitative Results
 (reproducible by running plot_results.py)
+
 Average test SSIM (between 0-1, higher is better) evaluated against both MVUE and RSS at equispaced accelerations [4, 8].
 
 ```
