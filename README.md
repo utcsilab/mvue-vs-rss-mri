@@ -6,7 +6,7 @@ The truth matters: A brief discussion on MVUE vs. RSS in MRI reconstruction
 
 The figure below shows the perils of evaluating on mismatched images: MoDL is trained on MVUE, and evaluated on RSS. PICS (L1-Wavelet reconstruction using SigPy) is tuned for MVUE, and evaluated on RSS. Both images look good, but their score suffers a large, unfair penalty. Zero-filled RSS is objectively better than both in SSIM (and PSNR, not shown here), but fails qualitative inspection.
 
-![Alt text](images/figure1.png?raw=true)
+<img src="images/figure1.png" width="600"/>
 
 # Quantitative Results
 (reproducible by running plot_results.py)
